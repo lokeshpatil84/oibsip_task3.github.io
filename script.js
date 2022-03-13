@@ -101,3 +101,7 @@ function kTo(inputDegreeValue, conversionDegreeType) {
   }
   return temperature;
 }
+
+document.querySelector(".convertBtn").addEventListener("click", function (e) {
+  location.reload(true);
+});
